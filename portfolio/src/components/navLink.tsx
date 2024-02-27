@@ -7,7 +7,7 @@ export default function navLink({ link }) {
 	return (
 		<Link
 			className={`rounded p-1 ${
-				pathName === link.url && 'bg-white text-black'
+				pathName === link.url && 'bg-white text-blue-400 hover:text-blue-300'
 			}`}
 			href={link.url}>
 			{link.title}
