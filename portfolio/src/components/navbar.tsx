@@ -123,7 +123,7 @@ export default function Navbar() {
 						variants={listVariants}
 						initial="closed"
 						animate="opened"
-						className="absolute top-0 left-0 w-screen h-screen bg-gray-500 text-blue-300 text-3xl flex flex-col items-center justify-center gap-8 z-40">
+						className="absolute top-0 left-0 w-screen h-screen bg-black text-blue-300 text-3xl flex flex-col items-center justify-center gap-8 z-10">
 						{links.map((link) => (
 							<motion.div variants={listItemVariants} key={link.title}>
 								<Link href={link.url}>{link.title}</Link>
